@@ -13,7 +13,10 @@
         android:theme="@style/Theme.KotlinStorageSQLiteDictionaryApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.DetailScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".view.MainScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
